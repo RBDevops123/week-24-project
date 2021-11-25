@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "week-24-project-07162021"
+    bucket = "bosch-nov21-training-devops-3434343"
     key    = "remote.tfstate"
     region = "us-east-1"
   }
